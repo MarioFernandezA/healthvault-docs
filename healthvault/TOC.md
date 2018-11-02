@@ -1,5 +1,3 @@
-# [Home](/healthvault/index)
-
 # [Introduction](/healthvault/introduction/introduction)
 ## [Why HealthVault](/healthvault/introduction/why-healthvault)
 ## [Technical Overview](/healthvault/introduction/technical-overview)
