@@ -11,10 +11,8 @@
 # [Getting Started](/healthvault/getting-started/)
 ## [Configure in ACC](/healthvault/getting-started/configuring-new-app-acc)
 ## [Update app configuration](/healthvault/getting-started/update-app-configurations)
-## [Invite Patients](/healthvault/getting-started/invite-patients)
 
 # Scenarios
-## [Meaningful Use](/healthvault/scenarios/meaningful-use)
 ## [Emergency Preparedness](/healthvault/scenarios/emergency-preparedness)
 
 # Publishing
@@ -34,8 +32,6 @@
 #### [Action URL Custom Redirection](/healthvault/concepts/connectivity/action-url-custom-redirection)
 #### [Shell Redirect Interface](/healthvault/concepts/connectivity/shell-redirect-interface)
 ### [Patient Connect](/healthvault/concepts/connectivity/patient-connect)
-### [Drop-off/Pick-up](/healthvault/concepts/connectivity/drop-off-pick-up)
-### [Direct Messaging](/healthvault/concepts/connectivity/direct-messaging)
 ### [Mobile apps using SODA](/healthvault/concepts/connectivity/mobile-devices)
 ### [Troubleshooting Connectivity Issues](/healthvault/concepts/connectivity/connection-troubleshooting)
 ### [Creating a Certificate](/healthvault/concepts/connectivity/creating-key-pairs)

@@ -2,7 +2,7 @@
 title: Overview | connectivity 
 author: jhutchings1
 ms.author: justhu
-ms.date: 04/12/2017
+ms.date: 11/10/2018
 ms.topic: article
 ms.prod: healthvault
 description: Get a quick overview of how apps and services can connect to HealthVault. 
@@ -39,18 +39,6 @@ This model provides a way to perform offline authorizations. The application cre
 
 See  <a href="/healthvault/concepts/connectivity/patient-connect" id="PageContent_13983_7">Patient Connect</a>.
 
-Drop-Off Pick-Up (DOPU)
------------------------
-
-This model allows an application to send data without establishing a long-term authorization to a record.  For example, a clinic can use DOPU to send discharge information to the patient.  DOPU is very similar to Patient Connect (see above) except that the data is imported without establishing any authorization or relationship with the provider.
-
-1.  The provider asks the user for an answer to a secret question.
-2.  The application creates a DOPU package and generates a pickup code.
-3.  The user visits the HealthVault website.
-4.  The user enters the secret answer and pickup code.
-
-See  <a href="/healthvault/concepts/connectivity/drop-off-pick-up" id="PageContent_13983_8">Drop-Off and pick-Up (DOPU)</a>
-
 Mobile
 ------
 
@@ -63,22 +51,6 @@ This model is designed for native software running on tablets, phones and other 
 5.  The application detects and saves the authorization information.
 
 See  <a href="/healthvault/concepts/connectivity/mobile-devices" id="PageContent_13983_5">Mobile development</a>
-
-Direct Messaging (U.S. only)
-----------------------------
-
-This protocol enable secure communications between providers and patients.
-
-1.  The provider collects the Direct address of the user.
-2.  The application creates a message and optionally attaches a clinical document.
-3.  The application encrypts the message with the HealthVault trust anchor.
-4.  The application signs the message with its trust anchor certificate.
-5.  The application sends the message through a secure gateway.
-6.  HealthVault verifies the digital signature and delivers the message.
-
-See  <a href="/healthvault/concepts/connectivity/direct-messaging" id="PageContent_14106_7">Direct Messaging</a> 
-
-HealthVault provides support for the protocols for Direct messaging within the U.S.
 
 Putting it together
 -------------------
